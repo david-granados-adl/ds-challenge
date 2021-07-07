@@ -1,0 +1,18 @@
+{
+  "source": ["src/tokens/**/*.js"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "src/styles/",
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "css/variables"
+        }
+      ],
+      "options": {
+        "outputReferences": true
+      }
+    }
+  }
+}
